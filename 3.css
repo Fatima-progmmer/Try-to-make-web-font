@@ -43,3 +43,59 @@ section h3 span {
     border-radius: 20px;
     color: white;
 }
+/* Responsive Design */
+
+/* Tablets and small laptops */
+@media screen and (max-width: 1024px) {
+    header h1 {
+        font-size: 70px;
+        margin-bottom: 80px;
+    }
+
+    section h3 span {
+        font-size: 35px;
+        padding: 10px 45px;
+    }
+}
+
+/* Tablets and large phones */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 55px;
+        margin-bottom: 60px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        width: 100%;
+        padding: 12px;
+    }
+
+    section h3 span {
+        font-size: 28px;
+        padding: 8px 35px;
+    }
+}
+
+/* Small mobile screens */
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    nav a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    section h3 span {
+        font-size: 22px;
+        padding: 8px 25px;
+    }
+}
